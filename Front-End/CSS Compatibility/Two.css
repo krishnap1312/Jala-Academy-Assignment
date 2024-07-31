@@ -1,0 +1,28 @@
+.list-container {
+    margin: 20px;
+}
+
+.default-list {
+    list-style-type: disc; 
+}
+
+.circle-list {
+    list-style-type: circle; 
+}
+
+.square-list {
+    list-style-type: square; 
+}
+
+.none-list {
+    list-style-type: none; 
+}
+
+.decimal-list {
+    list-style-type: decimal; 
+}
+
+.lower-alpha-list {
+    list-style-type: lower-alpha; 
+}
+

@@ -1,0 +1,36 @@
+.fixed-layout {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+}
+
+.fixed-layout th, .fixed-layout td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.fixed-layout th {
+    background-color: #f2f2f2;
+}
+
+
+.default-layout {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.default-layout th, .default-layout td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.default-layout th {
+    background-color: #f2f2f2;
+}
+
+table {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <link rel="stylesheet" href="Two.css">
+</head>
+<body>
+    <header>
+        <h1>My Semantic Web Page</h1>
+    </header>
+
+    <main>
+        
+        <article>
+            <h2>Article Title</h2>
+            <h6>This is an article section. It is used to represent a standalone piece of content that can be distributed or reused independently.
+            </p></h6>
+        </article>
+
+        
+        <section>
+            <h2>Contact Form</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        
+        <section>
+            <h2>Table</h2>
+            <table>
+                <caption>Employee Data</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Krishna</td>
+                        <td>Software Engineer</td>
+                        <td>Development</td>
+                        <td>₹80,000</td>
+                    </tr>
+                    <tr>
+                        <td>Jay</td>
+                        <td>Product Manager</td>
+                        <td>Product</td>
+                        <td>₹90,000</td>
+                    </tr>
+                    <tr>
+                        <td>Aman</td>
+                        <td>UX Designer</td>
+                        <td>Design</td>
+                        <td>₹70,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

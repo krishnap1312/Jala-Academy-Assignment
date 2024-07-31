@@ -1,0 +1,60 @@
+body {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    animation: moveBox 8s ease-in-out 1s infinite;
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translateX(0);
+        background-color: #3498db;
+    }
+    50% {
+        transform: translateX(80vw);
+        background-color: #e74c3c;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: #3498db;
+    }
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px; 
+}
+
+.page {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination div{
+    margin: 10vw 0;
+}
+
+.page:hover {
+    background-color: #3498db;
+    color: white;
+}

@@ -1,0 +1,9 @@
+/* Adding comments to the CSS block */
+
+body{
+    /* it is comment inside a block */
+    margin: 100%;
+    height: 80vw;
+    /* background color of body */
+    background-color: black;
+}

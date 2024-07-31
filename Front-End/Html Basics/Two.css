@@ -1,0 +1,114 @@
+
+
+body, h1, h2, p, ul, li, blockquote, hr, img, div, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="email"] {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    /* background-color: #333; */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button{
+    background-color: #333;
+    color: wheat;
+    padding: 1vw;
+    margin: 0 10vw;
+    border-radius: 4vw;
+    transition: .5s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+p::first-line {
+    font-weight: bold;
+    color: #333;
+}
+
+a::after {
+    content: " (link)";
+    color: #999;
+}
+
+a:hover::after {
+    content: " (Visit now!)";
+    color: #f00;
+}
